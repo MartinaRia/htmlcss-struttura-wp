@@ -9,12 +9,12 @@ body{
   padding: 0px;
 }
 
-
 .main_container{
   margin: 25px 50px 0px 50px;
   box-sizing: border-box;
 }
 
+/* COVER */
 .cover{
   height: 35vh;
   width: auto;
@@ -49,4 +49,32 @@ h2{
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1.4;
+}
+
+/* NAVBAR */
+nav{
+  background: #504741;
+  position: relative;
+  height: 50px;
+  width: auto;
+}
+
+ul{
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+li{
+  display: inline-block;
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 0.75em;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
