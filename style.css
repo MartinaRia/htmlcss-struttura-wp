@@ -86,6 +86,12 @@ aside, #center{
   float: left;
 }
 
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 aside{
   width: 25%;
   height: auto;
