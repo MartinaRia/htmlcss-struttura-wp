@@ -25,7 +25,7 @@ body{
   background: url(img/cover.jpg);
   background-size: cover;
 }
-.title{
+.cover .title{
   position: absolute;
   top:50%;
   left: 50%;
@@ -130,4 +130,36 @@ h4{
 
 #left li{
   color: #99cc33;
+}
+
+/* section center */
+h3{
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  color: #504741;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+  line-height: 1.1;
+  letter-spacing: -1.4px;
+  margin: 0px 0px 12px 0px;
+  padding: 0px;
+}
+
+article img{
+  width: calc(100% + 48px);
+  height: auto;
+  transform: translate(-24px, 0px);
+  margin: 24px 0px;
+}
+
+.article-meta{
+  padding: 12px 12px;
+  background: #f9f9f9;
+  margin: 24px 0px;
+}
+
+article{
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  margin-bottom: 24px;
 }
